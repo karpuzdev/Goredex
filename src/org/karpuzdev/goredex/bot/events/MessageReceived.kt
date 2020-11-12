@@ -6,8 +6,8 @@ import net.dv8tion.jda.api.hooks.ListenerAdapter
 class MessageReceived : ListenerAdapter() {
 
     companion object val map = HashMap<String, String>()
-    val plus = arrayOf("java-noman-mega-kopli-koply-recep-recbe-kins", "\uD83E\uDD0C")
-    val negative = arrayOf("php-skript", "\uD83E\uDD0F")
+    val plus = arrayOf("java-noman-mega-kopli-koply-recbe-kins-spring-kotlin-scss-js", "\uD83E\uDD0C")
+    val negative = arrayOf("php-skript-html-react-receb", "\uD83E\uDD0F")
 
     init {
         for (s in plus[0].split("-")) {
